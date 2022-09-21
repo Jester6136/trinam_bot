@@ -1,10 +1,8 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
-    - /start
-    - /restart
+    - start
     - chào em
     - hello em
     - hi em
@@ -14,7 +12,7 @@ nlu:
     - xin chào
     - hello
     - chào bạn
-
+    - xin chào
 - intent: goodbye
   examples: |
     - cu
@@ -31,7 +29,6 @@ nlu:
     - tạm biệt em
     - tạm biệt bot nhá
     - tạm biệt
-
 - intent: affirm
   examples: |
     - yes
@@ -40,7 +37,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -50,7 +46,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -64,7 +59,6 @@ nlu:
     - ok
     - ok đấy
     - cảm ơn ạ
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -81,21 +75,20 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: training_goal
   examples: |
     - đào tạo trong doanh nghiệp hướng tới mục đích gì
     - đào tạo trong đơn vị hướng tới mục đích gì
     - đào tạo trong đơn vị hướng tới mục tiêu, mục đích gì
-    - Mục tiêu cốt lõi trong vấn đề huấn luyện doanh nghiệp là gì
     - Xác định điểm cốt lõi trong training doanh nghiệp
+    - Thứ mà doanh nghiệp, công ty mong muốn khi đào tạo nhân viên
+    - Nêu lí do cần thiết của việc đào tạo trong doanh nghiệp
     - 1 doanh nghiệp sẽ có mục tiêu đào tạo như thế nào?
 
 - intent: training_need
@@ -103,10 +96,19 @@ nlu:
     - cách xác định nhu cầu đào tạo thông qua hình thức nào
     - xác định nhu cầu đào tạo thông qua hình thức nào
     - làm thế nào để xác định nhu cầu đào tạo của nhân viên
+    - Những phương pháp xác định mong muốn giáo dục trong tổ chức doanh nghiệp
     - Hỏi về các phương thức định vị mong muốn trong đào tạo
-
-- intent: training_method 
+    - Những cách tiêu biểu giúp định vị nhu cầu giáo dục trong doanh nghiệp
+    - Liệt kê các kiểu nhu cầu giáo dục trong doanh nghiệp
+    - 1 doanh nghiệp sẽ cần xác minh cách thức đào tạo như thế nào?
+- intent: training_method
   examples: |
     - phương pháp đào tạo nào là hiệu quả trong doanh nghiệp
     - phương pháp đào tạo nào là hiệu quả nhất
     - đào tạo trong doanh nghiệp thì nên sử dụng hình thức nào
+    - 1 doanh nghiệp cần có kiểu đào tạo nào để đạt mục tiêu phát triển lớn mạnh ?
+    - Một vài cách giáo dục có tiềm năng lớn nhất trong doanh nghiệp
+    - Nêu các kiểu cách đào tạo top 1 cho doanh nghiệp
+    - Hỏi về hình thức giáo dục mang lại hiệu quả cao cho doanh nghiệp
+    - Liệt kê các phương thức giáo dục tốt nhất trong doanh nghiệp
+    - Có những kiểu training nào hợp lý cho doanh nghiệp

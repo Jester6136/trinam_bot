@@ -14,7 +14,7 @@ rules:
 
 - rule: khen
   steps:
-  - intent: mood_happy
+  - intent: mood_great
   - action: utter_mood_happy
 
 - rule: training goal

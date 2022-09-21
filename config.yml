@@ -28,7 +28,6 @@ pipeline:
     epochs: 100
     constrain_similarities: true
   # entity extraction
-  # - name: custom_nlu.extractors.SimpleEntityExtractor
   - name: CRFEntityExtractor
   - name: ResponseSelector
     epochs: 100

@@ -33,7 +33,7 @@ class ActionDefaultFallback(Action):
 
     def run(self, dispatcher, tracker: Tracker, domain):
         
-        message1 = "Úi, rất tiếc câu hỏi của bạn nằm ngoài tri thức của mình, bạn vui lòng hỏi câu khác nha!"
+        message1 = "Rất tiếc câu hỏi của bạn nằm ngoài tri thức của mình, bạn vui lòng hỏi câu khác nha!"
         dispatcher.utter_message(text=message1)
         return []
 

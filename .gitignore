@@ -1,7 +1,6 @@
 env
 .rasa
 __pycache__
-models
 generate_data
 test.py
 vi_feature
