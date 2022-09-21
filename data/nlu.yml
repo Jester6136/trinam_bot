@@ -1,0 +1,112 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - /start
+    - /restart
+    - chào em
+    - hello em
+    - hi em
+    - em ơi, cho anh hỏi
+    - bot ơi
+    - cho mình hỏi chút
+    - xin chào
+    - hello
+    - chào bạn
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - good bye
+    - tạm biệt em
+    - tạm biệt bot nhá
+    - tạm biệt
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - quá tuyệt vời luôn
+    - Tốt quá
+    - Cháy đấy
+    - Mình cảm ơn
+    - Được luôn bạn ơi
+    - ok
+    - ok đấy
+    - cảm ơn ạ
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: training_goal
+  examples: |
+    - đào tạo trong doanh nghiệp hướng tới mục đích gì
+    - đào tạo trong đơn vị hướng tới mục đích gì
+    - đào tạo trong đơn vị hướng tới mục tiêu, mục đích gì
+    - Mục tiêu cốt lõi trong vấn đề huấn luyện doanh nghiệp là gì
+    - Xác định điểm cốt lõi trong training doanh nghiệp
+    - 1 doanh nghiệp sẽ có mục tiêu đào tạo như thế nào?
+
+- intent: training_need
+  examples: |
+    - cách xác định nhu cầu đào tạo thông qua hình thức nào
+    - xác định nhu cầu đào tạo thông qua hình thức nào
+    - làm thế nào để xác định nhu cầu đào tạo của nhân viên
+    - Hỏi về các phương thức định vị mong muốn trong đào tạo
+
+- intent: training_method 
+  examples: |
+    - phương pháp đào tạo nào là hiệu quả trong doanh nghiệp
+    - phương pháp đào tạo nào là hiệu quả nhất
+    - đào tạo trong doanh nghiệp thì nên sử dụng hình thức nào

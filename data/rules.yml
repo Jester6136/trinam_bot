@@ -1,0 +1,38 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: khen
+  steps:
+  - intent: mood_happy
+  - action: utter_mood_happy
+
+- rule: training goal
+  steps:
+  - intent: training_goal
+  - action: utter_response_training_goal
+
+- rule: training need
+  steps:
+  - intent: training_need
+  - action: utter_response_training_need
+
+- rule: training method
+  steps:
+  - intent: training_method
+  - action: utter_response_training_method
+
+- rule: fallback
+  steps:
+  - intent: nlu_fallback
+  - action: action_default_fallback

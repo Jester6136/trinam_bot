@@ -1,0 +1,54 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - training_goal
+  - training_method
+  - training_need
+
+responses:
+  utter_greet:
+  - text: "Chào bạn! tôi có thể giúp gì ạ?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  utter_response_training_goal:
+  - text: "Thay đổi nhận thức, hành động của nhân viên nhằm hướng tới đạt được mục tiêu kinh doanh, mục tiêu của công việc doanh nghiệp"
+
+  utter_response_training_need:
+  - text: "Gaio việc mới, việc khó, giao mục tiêu cao cho nhân viên"
+
+  utter_response_training_method:
+  - text: "Đào tạo dựa trên Video Clip"
+
+  utter_fallback:
+  - text: "Câu hỏi ngoài tri thức!!"
+
+  utter_mood_happy:
+  - text: "Cảm ơn bạn!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_default_fallback
